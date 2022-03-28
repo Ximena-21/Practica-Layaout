@@ -1,0 +1,23 @@
+.container{
+    display: flex ;
+    flex: 0 0 auto;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+}
+
+.container-box{
+    justify-content: center;
+}
+
+.box {
+    
+    background-color: rgb(241, 214, 214);
+    margin: 5px;
+    width: 40%;  
+}
+
+.container-section{
+    width: 60%;
+    background-color: rgb(155, 155, 233);
+    margin: 5px;
+}

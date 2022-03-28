@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgb(233, 122, 146);
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+img{
+    width: 60px;
+}
+
+.header-nav_item a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-nav_item a:hover{
+    color: rgb(219, 33, 73);
+}
+
+.header-nav_item a:active{
+    color: rgba(57, 204, 118, 0.712);
+}
+
+.header-container{
+    padding: 15px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.header-nav_item {
+    display: inline-block;
+    padding: 3px;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    /* background-color: rgb(240, 143, 16); */
+   /*  flex-wrap: wrap */
+}
+
+/* .container_inf{
+    flex: 0 1 auto;
+
+} */
+
+.box {
+    /* border: 2px double rgb(221, 28, 28); */
+    background-color: rgb(219, 130, 130);
+    margin: 5px;
+    width: auto;
+     /* flex-basis: 10rem; */
+    /*  flex-grow: 1; */
+     /*ayuda a que reposicionar para que se adopten los tamaños*/
+ }
+ 
+ .container-section{
+    background-color: rgb(188, 188, 247);
+    margin: 5px;
+    width: auto;
+    /* border: 2px dashed grey; */
+   /* justify-content: flex-end; */
+ }
+ .footer {
+    background-color: rgba(47, 168, 98, 0.712);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    width: 100%;   
+ }
+
+#redes{
+    color: rgb(75, 72, 72);
+    /* text-align: end; */
+}
+
+#contacto{
+    color: rgb(75, 72, 72);
+}
