@@ -1,24 +1,30 @@
 .container{
-    flex: 1 0 auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.container-box{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* flex: 1 0 auto;
+    flex-direction: row;
+    */
+} 
+
+.container-box{
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* display: flex;
+    flex-wrap: wrap;
+     */
 }
 
 .box {
     background-color: rgb(240, 156, 156);
-    margin: 5px;
-    width: 450px; /*en el 913px de la pagina, quedna en columnas por el width*/
-    display:flex;  
-}
+    min-width: 50%;
+/*     width: 450px; 
+    /*en el 913px de la pagina, quedna en columnas por el width
+    display:flex; */
 
+} 
 .container-section{
-    width: auto;
     background-color: rgb(165, 165, 252);
-    margin: 5px;
+    
 }

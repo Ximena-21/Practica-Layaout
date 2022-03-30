@@ -1,23 +1,28 @@
 .container{
     display: flex ;
-    flex: 0 0 auto;
+    flex-direction: row;
+    margin: 5px
+    
+    /* flex: 0 0 auto; */
     /* flex-direction: row;
     flex-wrap: wrap; */
 }
 
 .container-box{
-    justify-content: center;
+    flex: 0 0 40%;
+    /* justify-content: center; */
 }
 
 .box {
     
     background-color: rgb(241, 214, 214);
-    margin: 5px;
-    width: 40%;  
+    /* margin: 5px; */
+    min-width: 100%;  
 }
 
 .container-section{
-    width: 60%;
     background-color: rgb(155, 155, 233);
-    margin: 5px;
+    min-width: auto;
+    max-width: 60%;
+    /* margin: 5px; */
 }

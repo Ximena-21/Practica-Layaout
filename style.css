@@ -46,44 +46,50 @@ img{
 
 .container {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    margin: 5px;
     flex-direction: column;
+    justify-content: space-between;
     /* background-color: rgb(240, 143, 16); */
    /*  flex-wrap: wrap */
 }
 
-/* .container_inf{
-    flex: 0 1 auto;
-
-} */
-
-.box {
+.container-box {
     /* border: 2px double rgb(221, 28, 28); */
-    background-color: rgb(219, 130, 130);
-    margin: 5px;
+    
     width: auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
      /* flex-basis: 10rem; */
     /*  flex-grow: 1; */
      /*ayuda a que reposicionar para que se adopten los tamaños*/
  }
+
+ .box{
+     background-color: rgb(219, 130, 130);
+     margin-block: 2px;
+ }
  
  .container-section{
     background-color: rgb(188, 188, 247);
-    margin: 5px;
     width: auto;
     /* border: 2px dashed grey; */
    /* justify-content: flex-end; */
  }
+
+
  .footer {
     background-color: rgba(47, 168, 98, 0.712);
+    margin: 5px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; 
-    width: 100%;   
+    flex-wrap: wrap;   
  }
 
-#redes{
+#redes {
     color: rgb(75, 72, 72);
     /* text-align: end; */
 }
