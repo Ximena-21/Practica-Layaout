@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: rgb(233, 233, 233);
+    /* background-color: rgb(233, 233, 233); */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -15,8 +15,8 @@ header{
 
 main{
     margin: 5px;
-    background-color: aquamarine;
-    height: 500px;
+   /*  background-color: aquamarine; */
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,10 +28,21 @@ a{
     color: rgb(73, 72, 72);
 }
 
+input{
+    border: 0;
+    /* width: 80%; */
+}
+
+footer{
+    background-color: rgba(233, 233, 233, 0.966);
+    padding: 5px;
+    color: grey;
+}
+
 .items{
-    font-size: 12px;
+    /* font-size: 12px; */
     display: inline-flex;
-    padding: 2px;
+    padding-inline: 8px;
 }
 
 .headerNav{
@@ -50,7 +61,7 @@ a{
 
 .headerMenu{
     display: inline-flex;
-    font-size: 12px;
+    /* font-size: 12px; */
     margin-left: 3px;
     color: rgb(73, 72, 72);
 }
@@ -66,15 +77,42 @@ a{
 
 
 .searcher{
-    background-color: rgb(238, 231, 165);
+    /* background-color: rgb(238, 231, 165); */
     display: inline-flex;
-    width: 80%;
+    width: 60%;
     border-radius: 10px;
-    justify-content: center;
+    border: gray  solid 1px;
+    justify-content: space-around;
     margin-block: 5px;
     
 }
 
-.searcher-button{
-    margin-block-end: 20px;
+.searcher-search{
+    width: 80%;
 }
+
+.container-searcherButton{
+    margin-block-end: 20px;
+    
+}
+
+.searcher-button{
+    padding: 5px;
+    background-color: rgb(233, 230, 230);
+    border-style: none;
+    border-radius: 3px;
+}
+
+.country{
+    margin: 5px;
+}
+
+.navFoother{
+    margin: 5px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
